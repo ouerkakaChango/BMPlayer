@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ccgif">
+      <UniqueIdentifier>{2619b9b4-d4ea-4c14-9934-594ec1b52a6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BAAction.cpp" />
+    <ClCompile Include="BAUtility.cpp" />
+    <ClCompile Include="BAMap.cpp" />
+    <ClCompile Include="PicPathManager.cpp" />
+    <ClCompile Include="BAFireToClear.cpp" />
+    <ClCompile Include="Gif\Bitmap.cpp">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\CacheGif.cpp">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\GifBase.cpp">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\GifMovie.cpp">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\gif_lib\dgif_lib.c">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\gif_lib\gifalloc.c">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\gif_lib\gif_err.c">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\gif_lib\gif_font.c">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\gif_lib\gif_hash.c">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\gif_lib\quantize.c">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\InstantGif.cpp">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif\Movie.cpp">
+      <Filter>ccgif</Filter>
+    </ClCompile>
+    <ClCompile Include="BAMutex.cpp" />
+    <ClCompile Include="BATimer.cpp" />
+    <ClCompile Include="WelcomeScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BARecordPath.cpp" />
+    <ClCompile Include="LocalScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BAFileDlg.cpp" />
+    <ClCompile Include="WebScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BAWebNode.cpp" />
+    <ClCompile Include="BAWebPage.cpp" />
+    <ClCompile Include="BARecordBoard.cpp" />
+    <ClCompile Include="AboutScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BAAction.h" />
+    <ClInclude Include="BAUtility.h" />
+    <ClInclude Include="BAMap.h" />
+    <ClInclude Include="PicPathManager.h" />
+    <ClInclude Include="BAFireToClear.h" />
+    <ClInclude Include="Gif\Bitmap.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\CacheGif.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\GifBase.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\GifMacros.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\GIFMovie.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\GifUtils.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\gif_lib\gif_hash.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\gif_lib\gif_lib.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\gif_lib\gif_lib_private.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\InstantGif.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif\Movie.h">
+      <Filter>ccgif</Filter>
+    </ClInclude>
+    <ClInclude Include="BAMutex.h" />
+    <ClInclude Include="BATimer.h" />
+    <ClInclude Include="WelcomeScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BARecordPath.h" />
+    <ClInclude Include="LocalScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BAFileDlg.h" />
+    <ClInclude Include="WebScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="BAWebNode.h" />
+    <ClInclude Include="BAWebPage.h" />
+    <ClInclude Include="BARecordBoard.h" />
+    <ClInclude Include="AboutScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="..\..\..\..\..\..\..\BMPlayer.ico" />
+  </ItemGroup>
+</Project>
