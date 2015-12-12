@@ -2,7 +2,7 @@
 #include "WelcomeScene.h"
 #include "BAFileDlg.h"
 #include "BARecordPath.h"
-#include "HelloWorldScene.h"
+#include "WorldScene.h"
 
 USING_NS_CC;
 
