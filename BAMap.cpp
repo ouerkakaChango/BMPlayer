@@ -1,5 +1,5 @@
 #include "BAMap.h"
-#include "HelloWorldScene.h"
+#include "WorldScene.h"
 #include "PicPathManager.h"
 #include "BAFireToClear.h"
 #include "BAMutex.h"
