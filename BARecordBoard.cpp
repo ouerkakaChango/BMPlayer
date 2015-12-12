@@ -1,5 +1,5 @@
 #include "BARecordBoard.h"
-#include "HelloWorldScene.h"
+#include "WorldScene.h"
 
 BARecordBoard* BARecordBoard::_pinstance = nullptr;
 BARecordBoard* BARecordBoard::GetInstance(){
