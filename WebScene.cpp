@@ -1,6 +1,6 @@
 #include "WebScene.h"
 #include "WelcomeScene.h"
-#include "HelloWorldScene.h"
+#include "WorldScene.h"
 #include "BAUtility.h"
 #include "BAWebPage.h"
 #include "BAWebNode.h"
